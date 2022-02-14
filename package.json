@@ -1,0 +1,33 @@
+{
+  "name": "interactive-nft",
+  "version": "1.0.0",
+  "description": "ERC721 NFT Contract and Client",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adeebabdulsalam/InteractiveNFT.git"
+  },
+  "keywords": [
+    "NFT",
+    "ERC721",
+    "Ethereum"
+  ],
+  "author": "Adeeb Abdul Salam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adeebabdulsalam/InteractiveNFT/issues"
+  },
+  "homepage": "https://github.com/adeebabdulsalam/InteractiveNFT#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "dotenv": "^15.0.0",
+    "ipfs-http-client": "^56.0.1"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.21"
+  }
+}
