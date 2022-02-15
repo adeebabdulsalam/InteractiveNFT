@@ -15696,6 +15696,12 @@
     "version": "0.8.11+commit.d7f03943.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x1c151E607b558E0d8De7f3E6BF4E15F65e82a784",
+      "transactionHash": "0x4a02345ff3416378766e688faf69c97951184d1de116ce1cabdf9e8a1a39a693"
+    },
     "1644832879879": {
       "events": {},
       "links": {},
@@ -15704,7 +15710,7 @@
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2022-02-14T12:28:28.624Z",
+  "updatedAt": "2022-02-15T11:44:06.423Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
