@@ -49,16 +49,16 @@
       <label for="exampleFormControlInput1" class="form-label">bgId</label>
       <input id="bid" type="number" class="form-control" id="exampleFormControlInput1">
 
-      <button type="button" id="btn-mint" class="btn btn-success btn" onclick="App.startMint()">Mint</button>
+      <button type="button" id="btn-mint" class="btn btn-success btn" onclick="App.startProxyMint()">Mint</button>
     </div>
 
 
 
  <div class="row">
    <div class="col">
-     Your latest Tx hash appears here: <p id="result">
-
-     </p>
+     Opensealink: <p id="result"><div id="loading-opensea" class="spinner-grow text-info" role="status" style="display: none;">
+      <span class="visually-hidden">Loading...</span>
+    </div></p>
    </div>
  </div>
   <!-- container ends -->
